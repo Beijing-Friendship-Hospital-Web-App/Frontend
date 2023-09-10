@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div>
         <label htmlFor="exampleFormControlInput1">手机号码</label>
-        <input  className="form-control" id="exampleFormControlInput1" placeholder="手机号码" type="number" pattern="[0-9]*" inputMode="numeric" />
+        <input className="form-control" id="exampleFormControlInput1" placeholder="手机号码" type="number" pattern="[0-9]*" inputMode="numeric" />
       </div>
     </main>
   )
