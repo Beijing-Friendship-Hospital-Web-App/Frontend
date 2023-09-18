@@ -1,0 +1,13 @@
+.banner-wrapper {
+  height: 15rem;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

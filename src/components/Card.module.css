@@ -1,0 +1,25 @@
+.wrapper {
+  height: 10rem;
+  width: calc(100% - 2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 1rem;
+}
+
+.wrapper:active {
+  opacity: 0.5;
+}
+
+.title,
+.title:hover,
+.title:visited,
+.title:link,
+.title:active {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
