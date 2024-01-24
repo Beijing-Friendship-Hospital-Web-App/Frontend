@@ -1,13 +1,24 @@
 .banner-wrapper {
   height: 15rem;
   width: 100%;
-  background-color: grey;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.banner-image-wrapper {
+  width: 50vw;
+  height: 50vw;
+  position: relative;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.error {
+  border-color: red;
 }

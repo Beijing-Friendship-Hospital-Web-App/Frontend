@@ -2,3 +2,7 @@
   width: 100%;
   max-width: 280px;
 }
+
+.form-error {
+  border-color: red !important;
+}
